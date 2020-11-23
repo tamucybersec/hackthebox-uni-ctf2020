@@ -21,7 +21,7 @@ with open("times") as f:
 	flag = ""
 	for i in range(0, len(deltas), 8):
 		flag += chr(int("".join(deltas[i:i + 8]), 2))
-		print(flag)
+	print(flag)
 ```
 Here's the flag:
 `HTB{b1t_sh1ft1ng_3xf1l_1s_c00l}`
@@ -129,7 +129,7 @@ with open("times") as f:
 	flag = ""
 	for i in range(0, len(deltas), 8):
 		flag += chr(int("".join(deltas[i:i + 8]), 2))
-		print(flag)
+	print(flag)
 ```
 
 At long last, our journey is over! Here's the flag:
