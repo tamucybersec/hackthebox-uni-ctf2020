@@ -1,11 +1,3 @@
-# Solution
-
-Looking at the server's source code, we notice that the server is encrypting the message in AES CBC mode, and is validating the padding:
-
-![server source code](server_source_code.png)
-
-This means that the server is susceptible to a oracle padding attack. We use the following code to slowly decrypt message byte by byte:
-```python
 import socket
 
 BLOCK_SIZE=16
@@ -70,11 +62,4 @@ try:
     print(str.encode(message).decode("utf-8"))
 finally:
     sock.close()
-```
 
-We run the code against the server, and we eventually get the flag:
-
-![Flag](imgs/flag_output.png)
-
-## Flag:
-`HTB{CBC_0r4cl3}`
