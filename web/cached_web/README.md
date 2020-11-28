@@ -15,9 +15,11 @@ Open a webserver that serves the html file, and open an ngrok tunnel to make it 
 
 
 We then put our ngrok URL into the website, which will serve the HTML file to the webserver and then redirect the server to itself, bypassing the DNS filter:
+
 ![Flag Output](imgs/flag_output.png)
 
 ## Flag:
 
-`HTB{pwn1ng_y0ur_DNS_r3s0lv3r_0n3_qu3ry_4t_4_t1m3}`
 ![Flag](imgs/flag.png)
+
+`HTB{pwn1ng_y0ur_DNS_r3s0lv3r_0n3_qu3ry_4t_4_t1m3}`
