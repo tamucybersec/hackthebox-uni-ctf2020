@@ -1,4 +1,4 @@
-When I heared "weak RSA," the first thing to pop into my mind was that the n value was factorable in a feasible amount of time. 
+When I heard "weak RSA," the first thing to pop into my mind was that the n value was factorable in a feasible amount of time. 
 Looking into how people have done this in the past, I ran into this incredibly useful tool at: https://github.com/Ganapati/RsaCtfTool.
 It performs multiple attacks on the RSA file to try and crack it. 
 
